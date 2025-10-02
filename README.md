@@ -1,9 +1,6 @@
 # Deep Learning Implementation Assignment
 
-This project contains a from-scratch implementation of a small feedforward neural network for
-predicting strokes using the Kaggle healthcare dataset. The code is organised into reusable
-modules that implement activation functions, loss, forward and backward passes, gradient descent
-variants, and experiment tooling required by the assignment brief.
+This project contains a implementation of a small feedforward neural network for predicting strokes using the Kaggle healthcare dataset.
 
 ## Project structure
 
