@@ -25,9 +25,3 @@ Execute the experiment script to compare activation functions and gradient desce
 ```bash
 python -m src.experiments --data data/healthcare-dataset-stroke-data.csv --epochs 100 --hidden 64 --lr 0.01 --batch-size 32
 ```
-
-## Custom usage
-
-The building blocks can be combined for other experiments. For instance, you can instantiate the
-`FullyConnectedNetwork` and `Trainer` classes directly to explore custom network depths, learning
-rates, or evaluation strategies.
