@@ -1,4 +1,4 @@
-# Stroke Prediction Neural Network Assignment
+# Deep Learning Implementation Assignment
 
 This project contains a from-scratch implementation of a small feedforward neural network for
 predicting strokes using the Kaggle healthcare dataset. The code is organised into reusable
@@ -18,21 +18,6 @@ src/
 └── trainer.py         # Training loop supporting batch, stochastic & minibatch GD
 ```
 
-## Prerequisites
-
-Install the required Python packages (NumPy, pandas, and scikit-learn):
-
-```bash
-pip install numpy pandas scikit-learn
-```
-
-Download the dataset from Kaggle and place it at `data/healthcare-dataset-stroke-data.csv`:
-
-```bash
-mkdir -p data
-# Copy the downloaded CSV into the data/ directory
-```
-
 ## Running experiments
 
 Execute the experiment script to compare activation functions and gradient descent variants:
@@ -40,10 +25,6 @@ Execute the experiment script to compare activation functions and gradient desce
 ```bash
 python -m src.experiments --data data/healthcare-dataset-stroke-data.csv --epochs 100 --hidden 64 --lr 0.01 --batch-size 32
 ```
-
-The script prints a table summarising the training and test metrics for each combination of
-activation function (`sigmoid`, `relu`, `tanh`) and gradient descent variant (`batch`, `stochastic`,
-`minibatch`). Adjust the hyperparameters via the command-line flags as needed.
 
 ## Custom usage
 
